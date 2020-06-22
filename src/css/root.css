@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+:root {
+    --primary: #E53F3F;
+    --secondary: #F6F6F6;
+    --tertiary: #2C2C2C;
+}
+
+body {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif, Arial;
+    overflow: hidden; 
+}
+
+h1, h2, p {
+    margin: 0; 
+    padding: 0; 
+    text-transform: uppercase; 
+}
+
+ul {
+    list-style-type: none; 
+    text-transform: uppercase; 
+}
+
+span {
+    display: block; 
+}

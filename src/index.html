@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kortspel</title>
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/ux.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <script defer src="scripts/main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="icon-container">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-close"></i>
+                <i class="fas fa-dice-d20"></i>
+                <input type="button" value="update" id="update">
+            </div>
+            <aside>
+                <div class="dropdown-container">
+                    <ul>
+                        <li>
+                            <i class="fas fa-file-archive"></i>
+                            <h2>download</h2>
+                            <i class="fas fa-caret-right"></i>
+                        </li>
+                        <ul id="file-container">
+                            <li>all</li>
+                            <li>10,000</li>
+                            <li>20,000</li>
+                            <li>25,000</li>
+                            <li>50,000</li>
+                        </ul>
+                        <li>
+                            <i class="fas fa-database"></i>  
+                            <h2>analytics</h2> 
+                            <p class="na-content">(coming soon)</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-shopping-cart"></i> 
+                            <h2>buy list</h2>
+                            <p class="na-content">(coming soon)</p>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </nav>
+    </header>
+    <main>
+        <div class="update-notification">
+            <p>last updated: 24/06/2020 15:05</p>
+        </div>
+        <div class="search-container">
+            <input type="text" name="searchbar" id="searchbar">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="data-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>card name</th>
+                        <th>set</th>
+                        <th>rarity</th>
+                        <th>price</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+            <div class="view-container"> 
+                <h1>name</h1>
+                <img src="https://img.scryfall.com/cards/large/front/e/d/edbfe793-6644-43ed-bbe1-e122c01c5e53.jpg?1563899115" alt="Chandra's Outrage">
+                <input type="text" name="price-render" id="price-render">
+            </div>  
+        </div>
+    </main>
+    <footer>
+        <div class="pagination-container">
+            <i class="fas-caret-left"></i>
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <i class="fas-caret-right"></i>
+        </div>
+    </footer>
+</body>
+</html>

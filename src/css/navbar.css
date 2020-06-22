@@ -1,0 +1,82 @@
+.icon-container {
+    display: flex; 
+    flex-flow: row nowrap; 
+    justify-content: space-between; 
+    align-items: center; 
+    text-align: center; 
+    height: 3rem; 
+    font-weight: 700; 
+    color: var(--primary);
+}
+
+.fa-bars { 
+    flex-basis: 2%;
+    margin-left: 2%; 
+    font-size: 1.7rem;  
+}
+
+.fa-dice-d20 {
+    flex-basis: 60%; 
+    font-size: 1.9rem; 
+}
+
+#update {
+    flex-basis: 5%;
+    padding: 0.3rem 3%; 
+    margin-right: 2%;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem; 
+    color: var(--primary);
+    font-weight: 700; 
+    background-color: var(--secondary);
+    border: 0.1rem solid var(--primary);
+    border-radius: 1.5rem;   
+}
+
+.dropdown-container {
+    display: none;
+    position: absolute; 
+    top: 0vh; 
+    left: 0vh;  
+    flex-flow: column wrap; 
+    justify-content: center; 
+    align-items: flex-start; 
+    z-index: -1000; 
+    width: 20rem;  
+    color: var(--secondary);
+    background-color: var(--primary);
+}
+
+.dropdown-container h2 {
+    display: inline;
+}
+
+.dropdown-container i {
+    font-size: 1.5rem; 
+    margin: 0 0.5rem 0 1.5rem;
+}
+
+.dropdown-container li {
+    margin: 1rem 0; 
+    padding: 1rem 0; 
+    font-weight: 700; 
+    text-align: center; 
+}
+
+.dropdown-container p {
+    margin-top: 4%; 
+    margin-left: 15%; 
+}
+
+#file-container {
+    padding: 0 5rem;
+    text-align: center; 
+    background-color: #CF3A3A;
+    border-radius: 2rem; 
+}
+
+@media(max-width: 1800px) {
+    .dropdown-container {
+        width: 20rem; 
+    }
+}
