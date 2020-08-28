@@ -9,6 +9,6 @@ Primarily using acronyms for shortness and ability to amalgamate components into
 
 Technology - Separator - File or Folder
 
-  MPA            -        C    [MPA CORE - ALL UNITS]\n
-  MPA            -        B    [MPA BOOTSTRAP - front-end styling components]\n
-  MPA            -        S    [MPA SCRIPT - associated with scripting languages (Javascript and PHP)]\n
+  MPA            -        C    [MPA CORE - ALL UNITS]</br>
+  MPA            -        B    [MPA BOOTSTRAP - front-end styling components]</br>
+  MPA            -        S    [MPA SCRIPT - associated with scripting languages (Javascript and PHP)]</br>
