@@ -11,11 +11,11 @@ MPA-C aims to provide a lighter and more succinct method for rapid development o
 </div> 
 
 ### Components 
-<div align="left">
+
 Each component has an operation to enable easier prototyping. This is a bespoke framework ideally for data embedded in files and creating a CRUD (Create, Read, Update, Delete) interface for a dashboard. 
 
 This framework uses MVC (Model-View-Controller) to handle a user's interactions with your application. It is purposely built to handle data and display it for a specific user, providing dynamic content. 
-
+<div align="left">
 There are several components that interact with each for prototyping - see usage below: 
 
 - PHP: MVC handles the data for the application alongside providing useful methods for various CRUD and file handling tasks. 
@@ -24,11 +24,11 @@ There are several components that interact with each for prototyping - see usage
 </div>
 
 ### Naming
-<div align="left">
+
 The naming conventions are uniform across the entirety of the project for ease of use. 
 
 Names primarily use acronyms for shortness and ability to amalgamate components into singular objects. 
-
+<div align="left">
 Technology - Separator - File or Folder
 
   MPA            -        C    [MPA CORE - ALL UNITS]</br>
@@ -45,9 +45,9 @@ Technology - Separator - File or Folder
 - V - View 
 - C - Controller 
 - M - Model 
-
+<div align="center">
 Letters are indicative of the component usage alphabetically and are combined to produce the naming convention for a component. 
-
+</div>
 <b>MPA-AJS.js</b> - MPA - Animation - Javascript .js
 </div>
 
