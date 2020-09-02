@@ -16,10 +16,12 @@ Each component has an operation to enable easier prototyping. This is a bespoke 
 
 This framework uses MVC (Model-View-Controller) to handle a user's interactions with your application. It is purposely built to handle data and display it for a specific user, providing dynamic content. 
 
+<div align="left">
+
 There are several components that interact with each for prototyping - see usage below: 
 <br>
 <br>
-<div align="left">
+
 
 - PHP: MVC handles the data for the application alongside providing useful methods for various CRUD and file handling tasks. 
 - CSS: Customised bootstrap with complete colour scheme and templating system for ease of use 
@@ -33,7 +35,8 @@ There are several components that interact with each for prototyping - see usage
 The naming conventions are uniform across the entirety of the project for ease of use. 
 
 Names primarily use acronyms for shortness and ability to amalgamate components into singular objects. 
-
+<br>
+<br>
 <div align="left">
 
 - A - Animation 
