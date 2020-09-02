@@ -19,9 +19,13 @@ This framework uses MVC (Model-View-Controller) to handle a user's interactions 
 There are several components that interact with each for prototyping - see usage below: 
 <br>
 <br>
+<div align="left">
+
 - PHP: MVC handles the data for the application alongside providing useful methods for various CRUD and file handling tasks. 
 - CSS: Customised bootstrap with complete colour scheme and templating system for ease of use 
 - JS: Methods for animations and AJAX requests
+
+</div>
 
 
 ### Naming
@@ -30,14 +34,12 @@ The naming conventions are uniform across the entirety of the project for ease o
 
 Names primarily use acronyms for shortness and ability to amalgamate components into singular objects. 
 
-
-  <b>MPA            -        C    [MPA CORE - ALL UNITS]</br>
-  MPA            -        B    [MPA BOOTSTRAP - front-end styling components]</br>
-  MPA            -        S    [MPA SCRIPT - associated with scripting languages (Javascript and PHP)]</b></br>
-
-<b>Other letters to indicate use of component:</b>
+<div align="left">
 
 - A - Animation 
+- S - Script
+- C - Core 
+- B - Bootstrap 
 - MS - Microservice 
 - JS - Javascript
 - AJX - Ajax
@@ -46,7 +48,7 @@ Names primarily use acronyms for shortness and ability to amalgamate components 
 - C - Controller 
 - M - Model 
 
-Letters are indicative of the component usage alphabetically and are combined to produce the naming convention for a component. 
+</div> 
 
 <b>MPA-AJS.js</b> - MPA - Animation - Javascript .js
 
