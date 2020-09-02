@@ -30,7 +30,6 @@ The naming conventions are uniform across the entirety of the project for ease o
 
 Names primarily use acronyms for shortness and ability to amalgamate components into singular objects. 
 <div align="left">
-Technology - Separator - File or Folder
 
   <b>MPA            -        C    [MPA CORE - ALL UNITS]</br>
   MPA            -        B    [MPA BOOTSTRAP - front-end styling components]</br>
