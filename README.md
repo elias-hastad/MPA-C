@@ -4,7 +4,7 @@
 ## Marvin the Paranoid Android (Core)
 
 
-<b>MPA-C is a lightweight framework for prototyping single page web applications with the use of vanilla PHP, Javascript, and CSS. The inspiration for the name comes from Hitchhiker's Guide to the Galaxy, specifically a character that embodies my frustration with generalised frameworks.</b>
+<b>MPA-C is a lightweight framework for prototyping single page web applications with the use of vanilla PHP, Javascript, and CSS. The inspiration for the name comes from Hitchhiker's Guide to the Galaxy, specifically a character that embodies my frustration for generalised frameworks.</b>
 <br>
 <br>
 MPA-C aims to provide a lighter and more succinct method for rapid development of single page web applications with minimal content that provide a specific task; it is similar to how a microservice may operate independently.
@@ -53,7 +53,6 @@ Names primarily use acronyms for shortness and ability to amalgamate components 
 
 </div> 
 
-<b>MPA-AJS.js</b> - MPA - Animation - Javascript .js
 
 
 ### Usage 
